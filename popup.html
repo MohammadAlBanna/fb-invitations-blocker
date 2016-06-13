@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Facebook Invitations Blocker</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/enscroll.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+    </head>
+    <body>
+        <section class="container">
+            <header class="header">
+                <img id="fbmtbLogo" src="images/48.png" height="48" alt="Facebook Invitations Blocker">
+                <div><h2>Facebook Invitations Blocker</h2></div>
+                <div><h4>Where the shield will protect you from annoying invitations in FaceBook!</h4></div>
+            </header>
+            <div class="fbmtb">
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-1">Settings</li>
+                    <li class="tab-link" data-tab="tab-2" title="More extensions and others products"><span class="new-tab">New</span>Products</li>
+                    <li class="tab-link" data-tab="tab-3" title="Share this extension?">Like & Share</li>
+                </ul>
+                <div id="tab-1" class="tab-content current">
+                    <div class="shield-settings">
+                        <h3>Shield</h3>
+                        <div class="settings">
+                            <label for="blockFromAllUsers" title="Block invitations from all Facebook users"><input id="blockFromAllUsers" name="blockFromAllUsers" type="radio" selected="selected" value="blockFromAllUsers" />
+                        Block from All Facebook users </label>
+                        <label for="allowFromAllUsers" title="Allow all invitations from all Facebook users">
+                            <input id="allowFromAllUsers" name="blockFromAllUsers" type="radio" value="allowFromAllUsers" />
+                        Allow from All Facebook users</label>
+                    </div>
+                </div>
+                <div class="on-settings">
+                    <h3>On Invitations Type</h3>
+                    <div class="settings">
+                        <label for="onLikePagesSetting" title="Apply shield settings on like pages invitations"><input class="on-settings" id="onLikePagesSetting" name="onLikePagesSetting" type="checkbox" value="N" />
+                    Like Pages </label>
+                    <label for="onAppsSetting" title="Apply shield settings on Game and Apps settings invitations">
+                        <input class="on-settings" id="onAppsSetting" name="onAppsSetting" type="checkbox" value="N" />
+                    Games and Apps</label>
+                    <label for="onEventsSetting" title="Apply shield settings on events invitations">
+                        <input class="on-settings" id="onEventsSetting" name="onEventsSetting" type="checkbox" value="N" />
+                    Events</label>
+
+                     <label for="onPokesSettings" title="Apply shield settings on pokes">
+                        <input class="on-settings" id="onPokesSettings" name="onPokesSettings" type="checkbox" value="N" />
+                    Pokes</label>
+                    </div>
+                </div>
+    </div>
+    <div id="tab-2" class="tab-content my-products-list">
+        <img id="loaderImg" src="images/loader.gif" height="32" width="32" alt="">
+    </div>
+    <div id="tab-3" class="tab-content">
+        <div class="social-media">
+            <p><b>Share the extension? Appreciated! </b></p>
+            <a href="#" id="facebookShare"><img src="images/Facebook.png" height="48" width="48" alt="Facebook Icon"></a>
+            <a href="#" id="twitterShare"><img src="images/Twitter.png" height="48" width="48" alt="Twitter Icon"></a>
+            <a href="#" id="googlePlusShare"><img src="images/GooglePlus.png" height="48" width="48" alt="Google Plus"></a>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <a target="_blank" href="http://goo.gl/AL4rkZ"><img src="images/logo.png" height="25" width="25" alt="Alpha Tech">  By: Mohammad M. AlBanna</a>
+</footer>
+</section>
+</body>
+</html>
